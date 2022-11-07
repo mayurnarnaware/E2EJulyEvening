@@ -1,0 +1,91 @@
+20:48:18.137 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+20:48:18.145 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+20:48:18.145 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2097152000 bytes (maybe)
+20:48:18.145 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\mayur\AppData\Local\Temp (java.io.tmpdir)
+20:48:18.155 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+20:48:18.155 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+20:48:18.155 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+20:48:18.155 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+20:48:18.155 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+20:48:18.155 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+20:48:18.172 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+20:48:18.215 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+20:48:18.215 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+20:48:18.655 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+20:48:18.655 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+20:48:18.695 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+20:48:18.712 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+20:48:18.712 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+20:48:18.736 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2c58dcb1
+20:48:18.736 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@472698d
+20:48:18.744 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7b7683d4
+20:48:18.744 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@40712ee9
+20:48:18.744 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2e53b094
+20:48:18.744 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@39fa8ad2
+20:48:18.744 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@76ddd61a
+20:48:18.752 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3f92a84e
+20:48:18.752 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@cf67838
+20:48:18.752 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6137cf6e
+20:48:18.752 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7942a854
+20:48:18.752 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@53b8afea
+20:48:18.752 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6c302a1d
+20:48:18.764 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@33a3c44a
+20:48:18.764 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5fcfca62
+20:48:18.764 [main] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@499ef98e
+20:48:18.797 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+20:48:18.797 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+20:48:18.797 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+20:48:18.797 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+20:48:18.797 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+20:48:18.805 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+20:48:18.805 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+20:48:18.805 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+20:48:18.805 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+20:48:18.805 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+20:48:18.805 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+20:48:18.805 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+20:48:18.822 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+20:48:18.822 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+20:48:18.822 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+20:48:19.505 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 20736 (auto-detected)
+20:48:19.515 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+20:48:19.515 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+20:48:19.535 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+20:48:19.540 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+20:48:19.604 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: f4:4e:e3:ff:fe:aa:7f:e4 (auto-detected)
+20:48:19.747 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+20:48:19.747 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+20:48:19.747 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b9e070f
+20:48:19.795 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+20:48:19.795 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+20:48:19.795 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+20:48:19.795 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+20:48:22.605 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+20:48:22.785 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe65d15c5b73c07ed
+20:48:23.201 [main] DEBUG stepDefinitions.QAClickStepDefinition - Driver initialization successful
+20:48:26.000 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Currently on landing page
+20:48:26.011 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Pop is present
+20:48:33.565 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Currently on login page
+20:48:34.125 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Login unsuccessful using invalid credentials
+20:48:34.135 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+20:48:35.235 [main] DEBUG stepDefinitions.QAClickStepDefinition - Initializing Driver
+20:48:37.120 [main] DEBUG stepDefinitions.QAClickStepDefinition - Driver initialization successful
+20:48:40.375 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Currently on landing page
+20:48:40.375 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Pop is present
+20:48:48.385 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Currently on login page
+20:48:48.975 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Login unsuccessful using invalid credentials
+20:48:48.975 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+20:48:49.406 [main] DEBUG stepDefinitions.QAClickStepDefinition - Initializing Driver
+20:48:51.181 [main] DEBUG stepDefinitions.QAClickStepDefinition - Driver initialization successful
+20:48:54.607 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Currently on landing page
+20:48:54.607 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Pop is present
+20:49:02.798 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Currently on login page
+20:49:03.326 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Login unsuccessful using invalid credentials
+20:49:03.334 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+20:49:03.735 [main] DEBUG stepDefinitions.QAClickStepDefinition - Initializing Driver
+20:49:05.416 [main] DEBUG stepDefinitions.QAClickStepDefinition - Driver initialization successful
+20:49:08.515 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Currently on landing page
+20:49:08.515 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Pop is present
+20:49:16.414 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Currently on login page
+20:49:16.888 [main] INFO  stepDefinitions.QAClickStepDefinition - StepPass: Login unsuccessful using invalid credentials
+20:49:16.888 [AsyncHttpClient-1-13] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
