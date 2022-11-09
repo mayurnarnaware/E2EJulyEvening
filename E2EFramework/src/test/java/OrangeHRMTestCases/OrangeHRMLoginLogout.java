@@ -1,15 +1,11 @@
 package OrangeHRMTestCases;
 
 import java.io.IOException;
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import OrangeHRM_objectRepository.OrangeHRMHomePage;
 import OrangeHRM_objectRepository.OrangeHRMLoginPage;
 import resources.Base;
@@ -39,7 +35,7 @@ public class OrangeHRMLoginLogout extends Base {
 		lp.getBtnLogin().click();
 		
 		boolean isOnHome = hp.getTxtPIMHeader().isDisplayed();
-		Assert.assertTrue(false, "StepFail: Login unsuccessful |");
+		Assert.assertTrue(isOnHome, "StepFail: Login unsuccessful |");
 		System.out.println("StepPass: Login successfull, currently on homepage");
 		
 		String loggedInUser = hp.getTxtLoggedInUser().getText();

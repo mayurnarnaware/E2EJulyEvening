@@ -1,15 +1,9 @@
 package stepDefinitions;
 
-import java.time.Duration;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-
-import OrangeHRMTestCases.OrangeHRMLoginLogoutTest;
 import OrangeHRM_objectRepository.OrangeHRMHomePage;
 import OrangeHRM_objectRepository.OrangeHRMLoginPage;
 import io.cucumber.java.en.And;
@@ -19,7 +13,7 @@ import io.cucumber.java.en.When;
 import resources.Base;
 
 public class OrangeHRMStepDefinition extends Base{
-	public static Logger log = LogManager.getLogger(OrangeHRMLoginLogoutTest.class.getName());
+	public static Logger log = LogManager.getLogger(OrangeHRMStepDefinition.class.getName());
 	OrangeHRMLoginPage lp;
 	OrangeHRMHomePage hp;
 	public WebDriver driver;
