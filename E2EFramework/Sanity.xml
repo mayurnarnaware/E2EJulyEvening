@@ -6,9 +6,9 @@
   </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCases.OrangeHRMLoginLogout"/>
+      <class name="Pacematic.OrangeHRMAppTests.OrangeHRMLoginLogout"/>
       <class name="com.pacematic.AppTest"/>
-      <class name="testCases.OrangeHRMLoginLogoutTest"/>
+      <class name="Pacematic.OrangeHRMAppTests.OrangeHRMLoginLogoutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

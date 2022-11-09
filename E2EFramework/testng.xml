@@ -6,10 +6,11 @@
   </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCases.OrangeHRMLoginLogout"/>
+      <class name="Pacematic.OrangeHRMAppTests.OrangeHRMLoginLogout"/>
       <class name="com.pacematic.AppTest"/>
-      <class name="testCases.OrangeHRMLoginLogoutTest"/>
-      <class name="testCases.OrangeHRMForgotPasswordTest"/>
+      <class name="Pacematic.OrangeHRMAppTests.OrangeHRMLoginLogoutTest"/>
+      <class name="Pacematic.OrangeHRMAppTests.OrangeHRMForgotPasswordTest"/>
+      <class name="Pacematic.QAClickAppTests.QAClickLoginDDTTest" />
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

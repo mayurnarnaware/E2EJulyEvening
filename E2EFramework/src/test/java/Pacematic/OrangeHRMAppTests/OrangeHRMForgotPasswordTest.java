@@ -1,4 +1,4 @@
-package OrangeHRMTestCases;
+package Pacematic.OrangeHRMAppTests;
 
 import java.io.IOException;
 

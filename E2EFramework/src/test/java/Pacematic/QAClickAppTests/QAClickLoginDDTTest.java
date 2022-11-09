@@ -1,4 +1,4 @@
-package QAClickTestCases;
+package Pacematic.QAClickAppTests;
 
 import java.io.IOException;
 

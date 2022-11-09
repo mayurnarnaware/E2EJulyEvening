@@ -1,6 +1,8 @@
-package OrangeHRMTestCases;
+package Pacematic.OrangeHRMAppTests;
 
 import java.io.IOException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -8,17 +10,21 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import OrangeHRM_objectRepository.OrangeHRMHomePage;
 import OrangeHRM_objectRepository.OrangeHRMLoginPage;
+import commonLibraries.AssertLibraries;
 import resources.Base;
 
 
-public class OrangeHRMLoginLogout extends Base {
+public class OrangeHRMLoginLogoutTest extends Base {
+	public static Logger log = LogManager.getLogger(OrangeHRMLoginLogoutTest.class.getName());
 	public WebDriver driver;
 	OrangeHRMLoginPage lp;
 	OrangeHRMHomePage hp;
 	
 	@BeforeClass
 	public void launchOrangeHRM() throws IOException {
-		driver = initializeDriver();
+		log.debug("Initializing Driver");
+		driver=initializeDriver();
+		log.debug("Driver initialization successful");
 		driver.get(getURLOrangeHRM());
 		lp = new OrangeHRMLoginPage(driver);
 		hp = new OrangeHRMHomePage(driver);
@@ -29,13 +35,14 @@ public class OrangeHRMLoginLogout extends Base {
 		boolean isOnLogin = lp.getTxtLoginHeading().isDisplayed();
 		Assert.assertTrue(isOnLogin, "StepFailed: OrangeHRM failed to launch |");
 		System.out.println("StepPass: OrangeHRM launched successfully");
-		
-		lp.getTxtBoxUsername().sendKeys(getUsername());
-		lp.getTxtBoxPassword().sendKeys(getPassword());
+		log.info("StepPass: OrangeHRM launched successfully");
+		lp.getTxtBoxUsername().sendKeys("admin");
+		lp.getTxtBoxPassword().sendKeys("admin123");
 		lp.getBtnLogin().click();
 		
 		boolean isOnHome = hp.getTxtPIMHeader().isDisplayed();
-		Assert.assertTrue(isOnHome, "StepFail: Login unsuccessful |");
+		//Assert.assertTrue(isOnHome, "StepFail: Login unsuccessful |");
+		AssertLibraries.assertTrue(isOnHome, "StepFail: Login unsuccessful |");
 		System.out.println("StepPass: Login successfull, currently on homepage");
 		
 		String loggedInUser = hp.getTxtLoggedInUser().getText();
@@ -46,6 +53,7 @@ public class OrangeHRMLoginLogout extends Base {
 		
 		isOnLogin = lp.getTxtLoginHeading().isDisplayed();
 		Assert.assertTrue(isOnLogin, "StepFailed: Not on login page after logout |");
+		log.error("StepFailed: Not on login page after logout");
 		System.out.println("StepPass: Currently on login page after logout");
 	}
 	
