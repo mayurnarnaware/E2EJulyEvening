@@ -15,6 +15,6 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
     	//mydummycomment
-        Assert.assertTrue( true );
+        Assert.assertTrue( true, "Type your Failure Message" );
     }
 }
